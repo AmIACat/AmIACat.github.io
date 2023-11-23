@@ -1,0 +1,178 @@
+h1 {
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 0%;
+    color: #e02f26;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e02f26;
+}
+
+br {
+    background-color: black;
+}
+
+body {
+    color: #fff;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header {
+    background-color: #e02f26;
+    color: #FFFFFF;
+    padding-left: 30px;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 500%;
+    text-indent: 0.5em;
+}
+
+nav {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    padding: 1.5em;
+    margin: 0%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #e02f26;
+    transition: 2s;
+}
+
+nav a:visited {
+    color: #e02f26;
+}
+
+nav a:hover {
+    color: #fff;
+    transition: ease-out 2s;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    background-color: black;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+table {
+    border: 1px solid #e02f26;
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+}
+
+th {
+    color: #e02f26;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #e02f26;
+}
+
+td {
+    font-family: 'Trebuchet MS', 'Lucida Grande',  Arial, sans-serif;
+    padding-left: 20px;
+    border: 1px solid #e02f26;
+    padding-bottom: 5px;
+}
+
+label {
+    float: left;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+    border: 1px solid #e02f26;
+    background-color: black;
+    color: #e02f26;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(35, 35, 35);
+    border-color: #fff;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #e02f26;
+    background-color: black;
+    padding-top: 8%;
+}
+
+footer a:link {
+    color: #e02f26;
+}
+
+footer a:visited {
+    color: #e02f26;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+ol {
+    list-style-image: url(images/background.png);
+    background-color: black;
+    margin: 0%;
+}
+
+#float {
+    float: right;
+}
+
+#homehero {
+    height: 200px;
+    background-image: url(images/image3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: black;
+}
+
+#wrapper {
+    background-color: rgb(36, 36, 36);
+    background-image: linear-gradient(to bottom, rgb(40, 40, 40), rgb(5, 5, 5));
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    min-width: 500px;
+}

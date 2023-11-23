@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Automation Industries - Home</title>
+    <meta charset="utf-8">
+    <link href="aindustries.css" rel="Stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Automation Industries</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>
+                    <a href="booking.html">Bookings</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Bookings</h2>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <fieldset>
+                    <legend>Reservations</legend>
+                    <p>Required fields are marked with an asterisk *.</p>
+                    <label for="companyName">*Company Name</label>
+                    <input type="text" name="companyName" id="companyName" required>
+                    <label for="timeframe">*Meeting Date</label>
+                    <input type="date" name="timeframe" id="timeframe" required>
+                    <label for="requirements">*Requirements</label>
+                    <textarea id="requirements" name="requirements" rows="3" cols="70" required></textarea>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="3" cols="70"></textarea>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <small><i>
+                    <img src="images/background.png" height="30" width="30" alt="Stars">
+                    Copyright &copy; 2023 Automation Industries
+                    <img src="images/background.png" height="30" width="30" alt="Stars"><br>
+                    <br>
+                    <a href="mailto:automation.industries@ai.com">
+                        automation.industries@ai.com
+                    </a>
+                </i></small>
+        </footer>
+    </div>
+</body>
+
+</html>
